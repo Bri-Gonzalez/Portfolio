@@ -24,15 +24,15 @@ function Project1() {
             </div>
             </div>
           <div className='left-tech'>
-            <p>PostgreSQL, Ruby on Rails, React, bcrypt, JWT CSS</p>
+            <p>PostgreSQL, Ruby on Rails, React, bcrypt, JWT, CSS</p>
           </div>
         </div>
       </div>
       <div className='left-links'>
-        <a href='https://find-your-server.netlify.app/' target='_blank'>
+        <a href='https://find-your-server.netlify.app/' target='_blank' rel='noopener noreferrer'>
           <LaunchIcon />
         </a>
-        <a href='https://github.com/Bri-Gonzalez/SERVER' target='_blank'>
+        <a href='https://github.com/Bri-Gonzalez/SERVER' target='_blank' rel='noopener noreferrer'>
           <GitHubIcon />
         </a>
       </div>
