@@ -1,6 +1,7 @@
 .nav {
   align-items: center;
-  background-color: #303030fc;
+  backdrop-filter: blur(7px);
+  background-color: #303030e2;
   justify-content: flex-end;
   display: flex;
   height: 70px;

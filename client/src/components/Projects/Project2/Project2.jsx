@@ -9,12 +9,14 @@ function Project2() {
         <div className='right-details'>
           <p className='right-title'>Sound</p>
           <div className='right-description-container'>
-          <div className='right-description'>
-            <p>
-            Full stack full CRUD application with user authentication and authorization. Sound is an online marketplace for users to sell and purchase audio products.
-            </p>
+            <div className='right-description'>
+              <p>
+                Full stack full CRUD application with user authentication and
+                authorization. Sound is an online marketplace for users to sell
+                and purchase audio products.
+              </p>
             </div>
-            </div>
+          </div>
           <div className='right-tech'>
             <p>React, Express, Node.js, MongoDB, bcrypt, JWT, CSS</p>
           </div>
@@ -27,10 +29,18 @@ function Project2() {
         </div>
       </div>
       <div className='right-links'>
-        <a href='https://sound-2021.netlify.app/' target='_blank' rel='noopener noreferrer'>
+        <a
+          href='https://sound-2021.netlify.app/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <LaunchIcon />
         </a>
-        <a href='https://github.com/Bri-Gonzalez/Sound' target='_blank' rel='noopener noreferrer'>
+        <a
+          href='https://github.com/Bri-Gonzalez/Sound'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <GitHubIcon />
         </a>
       </div>
