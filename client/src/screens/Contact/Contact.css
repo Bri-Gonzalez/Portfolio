@@ -24,10 +24,16 @@
 
 .contact-links a {
   margin: 0 10px;
+  transition: 350ms;
+}
+
+.contact-links a:hover {
+  color: #88FFDB;
 }
 
 .contact-text p {
   font-size: clamp(16px, 2vw, 25px);
   margin: 0;
 }
+
 

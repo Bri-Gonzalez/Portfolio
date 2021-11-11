@@ -8,7 +8,7 @@ function Nav() {
         <NavHashLink className='nav-link' smooth to='#about'>about.</NavHashLink>
         <NavHashLink className='nav-link' smooth to='#projects'>projects.</NavHashLink>
         <NavHashLink className='nav-link' smooth to='#contact'>contact.</NavHashLink>
-        <a href='https://drive.google.com/file/d/1CVuQphp_JaTJ-XiWMOBe_Hmr_nCUIsDB/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+        <a href='https://drive.google.com/file/d/1CVuQphp_JaTJ-XiWMOBe_Hmr_nCUIsDB/view?usp=sharing' target='_blank' rel='noopener noreferrer' className='resume'>
           resume.
         </a>
       </div>

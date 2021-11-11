@@ -21,3 +21,11 @@
 .nav-links a:hover {
   color: #88FFDB;
 }
+
+.resume:hover {
+  background-color: #88ffdb09;
+  border: 1.5px solid #88FFDB;
+  border-radius: 7px;
+  color: #88FFDB;
+  padding: 5px;
+}
