@@ -1,3 +1,4 @@
+import './Project4.css'
 import LaunchIcon from '@mui/icons-material/Launch'
 import GitHubIcon from '@mui/icons-material/GitHub'
 
@@ -29,7 +30,7 @@ function Project4() {
           />
         </div>
       </div>
-      <div className='right-links'>
+      <div className='right-links-pokeapps'>
         <a
           href='https://bri-gonzalez.github.io/PokeApps/'
           target='_blank'

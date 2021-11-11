@@ -1,0 +1,13 @@
+.right-links-pokeapps {
+  display: flex;
+  margin: 0;
+}
+
+.right-links-pokeapps a {
+  margin-right: 12px;
+  transition: 350ms;
+}
+
+.right-links-pokeapps a:hover {
+  color: #88FFDB;
+}
