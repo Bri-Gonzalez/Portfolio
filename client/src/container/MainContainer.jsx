@@ -1,3 +1,5 @@
+import './MainContainer.css'
+import Layout from '../layout/Layout'
 import Home from '../screens/Home/Home'
 import AboutMe from '../screens/AboutMe/AboutMe'
 import Project1 from '../screens/Projects/Project1/Project1'
@@ -9,13 +11,15 @@ import Contact from '../screens/Contact/Contact'
 function MainContainer() {
   return (
     <div className='main-container'>
-      <Home />
-      <AboutMe />
-      <Project1 />
-      <Project2 />
-      <Project3 />
-      <Project4 />
-      <Contact /> 
+      <Layout>
+        <Home />
+        <AboutMe />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <Contact /> 
+      </Layout>
     </div>
   )
 }

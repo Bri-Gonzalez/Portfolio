@@ -7,11 +7,11 @@ import MainContainer from './container/MainContainer'
 function App() {
   return (
     <div className="App">
-      <Layout>
+      {/* <Layout> */}
         <Routes>
           <Route path='/' element={<MainContainer/>} />
         </Routes>
-      </Layout>
+      {/* </Layout> */}
     </div>
   )
 }
