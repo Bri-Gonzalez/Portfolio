@@ -2,9 +2,9 @@ import './AboutMe.css'
 
 function AboutMe() {
   return (
-    <div>
+    <section id='about' className='about'>
       About Me
-    </div>
+    </section>
   )
 }
 

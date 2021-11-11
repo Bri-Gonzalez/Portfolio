@@ -2,7 +2,7 @@ import './Home.css'
 
 function Home() {
   return (
-    <div className='home-container'>
+    <section id='home' className='home'>
       <h1>briana gonzalez.</h1>
       <div className='intro-container'>
         <div className='profile-img'>
@@ -19,7 +19,7 @@ function Home() {
           <button>check out my work!</button>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
