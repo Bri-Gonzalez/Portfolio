@@ -4,7 +4,7 @@ import Footer from '../components/Footer/Footer'
 
 function Layout(props) {
   return (
-    <div>
+    <div className='layout-container'>
       <Nav/>
       <div className='children'>
         {props.children}

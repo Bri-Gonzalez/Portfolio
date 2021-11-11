@@ -1,0 +1,9 @@
+.layout-container {
+  height: 100%;
+}
+
+.children {
+  background-color: #303030;
+  flex: 1;
+  height: 100%;
+}
