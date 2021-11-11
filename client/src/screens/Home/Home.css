@@ -28,6 +28,7 @@
 }
 
 .call-to-action p {
+  font-size: 20px;
   text-align: left;
 }
 
@@ -36,6 +37,8 @@
   border: 1.9px solid #dcdcdc;
   border-radius: 7px;
   color: #dcdcdc;
+  font-family: 'Nixie One', sans-serif;
+  font-size: 20px;
   padding: 10px 0;
-  width: 225px;
+  width: 250px;
 }
