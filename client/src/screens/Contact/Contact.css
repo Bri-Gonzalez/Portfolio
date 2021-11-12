@@ -39,4 +39,14 @@
   margin: 0;
 }
 
+@media screen and (max-width: 590px) {
+  .contact-details {
+    padding: 0 10px 200px 10px;
+  }
+
+  .contact-text p {
+    padding: 0 30px;
+  }
+}
+
 
