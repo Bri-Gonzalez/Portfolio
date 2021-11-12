@@ -2,8 +2,10 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  min-height: 95vh;
-  margin-bottom: 60px;
+  /* min-height: 80vh; */
+  /* margin-bottom: 60px; */
+  /* margin: 0 auto; */
+  padding: 100px 0;
 }
 
 .about h2 {

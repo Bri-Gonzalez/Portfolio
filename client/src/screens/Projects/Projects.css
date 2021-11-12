@@ -2,8 +2,9 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  min-height: 95vh;
-  margin-bottom: 60px;
+  /* min-height: 95vh; */
+  /* margin-bottom: 60px; */
+  padding: 100px 0;
 }
 
 .projects h2 {

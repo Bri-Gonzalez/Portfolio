@@ -2,13 +2,15 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  min-height: 95vh;
-  margin-bottom: 60px;
+  /* justify-content: center; */
+  /* height: 90vh; */
+  /* margin-bottom: 60px; */
+  padding: 0 0 100px 0;
 }
 
 .home h1 {
   font-size: clamp(40px, 8vw, 80px);
-  margin: 60px 0 20px 0;
+  margin: 60px 0 40px 0;
   text-align: left;
 }
 

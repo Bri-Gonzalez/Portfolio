@@ -22,6 +22,10 @@
   color: #88FFDB;
 }
 
+.resume {
+  padding-right: 30px;
+}
+
 .resume:hover {
   background-color: #88ffdb09;
   border: 1.5px solid #88FFDB;

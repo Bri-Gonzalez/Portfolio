@@ -2,8 +2,9 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  min-height: 75vh;
-  margin-bottom: 60px;
+  /* min-height: 75vh; */
+  /* margin-bottom: 60px; */
+  padding: 100px 0;
 }
 
 .contact h2 {
@@ -17,6 +18,7 @@
   font-family: 'Libre Baskerville', sans-serif;
   flex-direction: column;
   justify-content: center;
+  padding: 0 100px 200px 100px;
 }
 
 .contact-links {
