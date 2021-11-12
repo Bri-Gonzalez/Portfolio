@@ -24,6 +24,7 @@
 
 .resume {
   padding-right: 30px;
+  transition: 350ms;
 }
 
 .resume:hover {
@@ -32,4 +33,10 @@
   border-radius: 7px;
   color: #88FFDB;
   padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    display: none;
+  }
 }

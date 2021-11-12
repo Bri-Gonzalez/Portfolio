@@ -1,0 +1,55 @@
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-nav {
+    display: unset;
+  }
+
+  .menu-div {
+    color: #dcdcdc;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu-div:hover {
+    color: #88FFDB;
+    cursor: pointer;
+  }
+
+  .mobile-nav-links {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    transition: 350ms;
+  }
+
+  .mobile-nav-links a:hover {
+    color: #88FFDB;
+    cursor: pointer;
+  }
+
+  .mobile-nav-link {
+    margin: 12px 0;
+  }
+
+  .mobile-resume {
+    border: 1.5px solid #dcdcdc;
+    border-radius: 7px;
+    margin-top: 12px;
+    padding: 9px 9px 13px 9px;
+    width: 105px;
+    transition: 350ms;
+  }
+
+  .mobile-resume:hover {
+    background-color: #88ffdb09;
+    border: 1.5px solid #88FFDB;
+    color: #88FFDB;
+    cursor: pointer;
+  }
+}
