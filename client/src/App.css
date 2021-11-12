@@ -1,6 +1,5 @@
 .App {
   color: #dcdcdc;
-  font-family: 'Nixie One', sans-serif;
   height: 100%;
   text-align: center;
 }
@@ -26,4 +25,8 @@ a {
 :after,
 :before {
   box-sizing: border-box;
+}
+
+h1, h2, a {
+  font-family: 'Nixie One', sans-serif;
 }

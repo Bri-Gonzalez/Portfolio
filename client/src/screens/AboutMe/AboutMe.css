@@ -13,7 +13,8 @@
 }
 
 .about-details {
-  font-size: clamp(18px, 3vw, 20px);
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: clamp(16px, 3vw, 19px);
   max-width: 1000px;
   text-align: left;
 }
@@ -29,4 +30,5 @@
 
 .inline-tech p {
   display: flex;
+  font-family: 'Libre Baskerville', sans-serif;
 }

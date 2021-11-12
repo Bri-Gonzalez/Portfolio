@@ -25,7 +25,8 @@
 }
 
 .right-title {
-  font-size: clamp(20px, 3vw, 30px);
+  font-family: 'Nixie One', sans-serif;
+  font-size: clamp(20px, 3vw, 27px);
   font-weight: bold;
   margin: 0 0 15px 0;
 }
@@ -43,14 +44,16 @@
   background-color: #3F3F3F;
   border-radius: 10px;
   display: flex;
-  font-size: clamp(16px, 2vw, 25px);
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: clamp(16px, 1.5vw, 22px);
   height: 100%;
   padding: 20px;
   width: 50%;
 }
 
 .right-tech {
-  font-size: clamp(16px, 2vw, 21px);
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: clamp(14px, 1.5vw, 17px);
   margin-top: 15px;
   width: 100%;
 }
