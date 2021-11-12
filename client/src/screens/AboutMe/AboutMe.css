@@ -31,3 +31,17 @@
   display: flex;
   font-family: 'Libre Baskerville', sans-serif;
 }
+
+@media screen and (max-width: 400px) {
+  .about-tech-container {
+    flex-direction: column;
+  }
+
+  .inline-tech {
+    margin: 0;
+  }
+
+  .inline-tech p {
+    margin: 10px 0 0 0;
+  }
+}
