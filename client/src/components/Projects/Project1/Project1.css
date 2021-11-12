@@ -119,20 +119,23 @@
   
   .left-description {
     background-color: transparent;
-    font-size: 3vw;
+    font-size: clamp(14px, 2.5vw, 17px);
     padding: unset;
     width: 95%;
   }
 
   .left-tech {
     display: flex;
+    font-size: clamp(14px, 2.5vw, 17px);
     justify-content: left;
     margin: unset;
+    text-align: left;
   }
 
   .left-tech p {
     float: unset;
-    width: unset;
+    font-style: italic;
+    width: 90%;
   }
 
   .left-links {

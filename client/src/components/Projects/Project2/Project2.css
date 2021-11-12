@@ -128,18 +128,21 @@
   
   .right-description {
     background-color: transparent;
-    font-size: 3vw;
+    font-size: clamp(14px, 2.5vw, 17px);
     padding: unset;
     width: 95%;
   }
 
   .right-tech {
+    font-size: clamp(14px, 2.5vw, 17px);
     margin: unset;
+    text-align: right;
   }
 
   .right-tech p {
     float: right;
-    width: unset;
+    font-style: italic;
+    width: 90%;
   }
 
   .right-links {
