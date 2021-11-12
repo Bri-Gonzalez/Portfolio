@@ -5,6 +5,7 @@ function Project3() {
   return (
     <section>
       <div className='project-left'>
+      <p className='left-title-small-screen'>PokéBinder</p>
         <div className='left-img'>
           <img
             src='https://res.cloudinary.com/dfryxohde/image/upload/v1636575404/Portfolio/Screen_Shot_2021-11-09_at_11.22.48_PM_m6slmo.png'

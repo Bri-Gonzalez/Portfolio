@@ -6,6 +6,7 @@ function Project2() {
   return (
     <section>
       <div className='project-right'>
+      <p className='right-title-small-screen'>Sound</p>
         <div className='right-details'>
           <p className='right-title'>Sound</p>
           <div className='right-description-container'>

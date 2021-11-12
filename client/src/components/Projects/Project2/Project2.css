@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.right-title-small-screen {
+  display: none;
+}
+
 .right-img {
   display: flex;
   justify-content: right;
@@ -48,7 +52,7 @@
   font-size: clamp(16px, 1.5vw, 22px);
   height: 100%;
   padding: 20px;
-  width: 50%;
+  width: 55%;
 }
 
 .right-tech {
@@ -76,4 +80,70 @@
 
 .right-links a:hover {
   color: #88FFDB;
+}
+
+@media screen and (max-width: 790px) {
+  .project-right {
+    flex-direction: column;
+    position: unset;
+  }
+
+  .right-title-small-screen {
+    font-family: 'Nixie One', sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 20px 0;
+  }
+
+  .right-img {
+    display: flex;
+    justify-content: flex-end;
+    order: 0;
+  }
+
+  .right-img img {
+    width: 95%;
+  }
+
+  .right-details {
+    align-items: center;
+    position: unset;
+    order: 1;
+    text-align: center;
+  }
+
+  .right-title {
+    display: none;
+  }
+
+  .right-description-container {
+    align-items: right;
+    display: flex;
+    height: unset;
+    justify-content: flex-end;
+    text-align: right;
+  }
+  
+  .right-description {
+    background-color: transparent;
+    font-size: 3vw;
+    padding: unset;
+    width: 95%;
+  }
+
+  .right-tech {
+    margin: unset;
+  }
+
+  .right-tech p {
+    float: right;
+    width: unset;
+  }
+
+  .right-links {
+    justify-content: flex-end;
+    margin: 25px 0 55px 0;
+  }
 }

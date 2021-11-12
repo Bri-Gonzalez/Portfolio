@@ -6,6 +6,7 @@ function Project4() {
   return (
     <section>
       <div className='project-right'>
+      <p className='right-title-small-screen'>PokéApps</p>
         <div className='right-details'>
           <p className='right-title'>PokéApps</p>
           <div className='right-description-container'>

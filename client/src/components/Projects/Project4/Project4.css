@@ -11,3 +11,10 @@
 .right-links-pokeapps a:hover {
   color: #88FFDB;
 }
+
+@media screen and (max-width: 790px) {
+  .right-links-pokeapps {
+    justify-content: flex-end;
+    margin-top: 25px;
+  }
+}

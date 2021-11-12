@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.left-title-small-screen {
+  display: none;
+}
+
 .left-img img {
   border-radius: 10px;
   width: 60vw;
@@ -42,7 +46,7 @@
   font-size: clamp(16px, 1.5vw, 22px);
   height: 100%;
   padding: 20px;
-  width: 50%;
+  width: 55%;
 }
 
 .left-tech {
@@ -71,4 +75,68 @@
 
 .left-links a:hover {
   color: #88FFDB;
+}
+
+@media screen and (max-width: 790px) {
+  .project-left {
+    flex-direction: column;
+    position: unset;
+  }
+
+  .left-title-small-screen {
+    font-family: 'Nixie One', sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    display: flex;
+    margin: 0 0 20px 0;
+  }
+
+  .left-img {
+    display: flex;
+  }
+
+  .left-img img {
+    width: 95%;
+  }
+
+  .left-details {
+    align-items: center;
+    position: unset;
+    text-align: center;
+  }
+
+  .left-title {
+    display: none;
+  }
+
+  .left-description-container {
+    align-items: right;
+    display: flex;
+    height: unset;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  
+  .left-description {
+    background-color: transparent;
+    font-size: 3vw;
+    padding: unset;
+    width: 95%;
+  }
+
+  .left-tech {
+    display: flex;
+    justify-content: left;
+    margin: unset;
+  }
+
+  .left-tech p {
+    float: unset;
+    width: unset;
+  }
+
+  .left-links {
+    justify-content: flex-start;
+    margin: 25px 0 55px 0;
+  }
 }
