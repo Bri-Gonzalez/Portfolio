@@ -4,13 +4,13 @@
   text-align: center;
 }
 
-html, body {
+/* html {
   height: 100%;
-}
+} */
 
-body {
+/* body {
   margin: 0 auto;
-}
+} */
 
 #root {
   height: 100%;
