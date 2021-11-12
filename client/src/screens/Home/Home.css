@@ -61,3 +61,22 @@
   color: #88FFDB;
   cursor: pointer;
 }
+
+@media screen and (max-width: 690px) {
+  .home h1 {
+    margin: 60px 0 20px 0;
+  }
+
+  .intro-container {
+    flex-direction: column;
+  }
+
+  .profile-img {
+    display: flex;
+    margin: unset;
+  }
+
+  .call-to-action {
+    margin: unset;
+  }
+}
