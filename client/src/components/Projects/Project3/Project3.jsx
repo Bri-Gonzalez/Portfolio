@@ -5,26 +5,27 @@ function Project3() {
   return (
     <section>
       <div className='project-left'>
-      <p className='left-title-small-screen'>PokéBinder</p>
+        <p className='left-title-small-screen'>PokéApps</p>
         <div className='left-img'>
           <img
-            src='https://res.cloudinary.com/dfryxohde/image/upload/v1636575404/Portfolio/Screen_Shot_2021-11-09_at_11.22.48_PM_m6slmo.png'
-            alt='PokeBinder'
+            src='https://res.cloudinary.com/dfryxohde/image/upload/v1636826134/Portfolio/screen-shot-2021-11-13-at-11-5_b4uliy.png'
+            alt='PokeApps'
           />
         </div>
         <div className='left-details'>
-          <p className='left-title'>PokéBinder</p>
+          <p className='left-title'>PokéApps</p>
           <div className='left-description-container'>
             <div className='left-description'>
               <p>
-                Front end full CRUD application utilizing Airtable that was
-                created as an extension to PokéApps. PokéBinder allows the user
-                to upload their favorite Pokémon cards to a virtual binder.
+                Front end application composed of multiple Pokémon related apps
+                using PokeAPI. I Choose You allows users to get a starter
+                Pokémon and PokéSearch allows users to search and view all
+                existing Pokémon and their data.
               </p>
             </div>
           </div>
           <div className='left-tech'>
-            <p>React, CSS</p>
+            <p>JavaScript, HTML, CSS</p>
           </div>
         </div>
       </div>

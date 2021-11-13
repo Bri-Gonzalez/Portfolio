@@ -6,32 +6,30 @@ function Project4() {
   return (
     <section>
       <div className='project-right'>
-      <p className='right-title-small-screen'>PokéApps</p>
+        <p className='right-title-small-screen'>PokéBinder</p>
         <div className='right-details'>
-          <p className='right-title'>PokéApps</p>
+          <p className='right-title'>PokéBinder</p>
           <div className='right-description-container'>
             <div className='right-description'>
               <p>
-                Front end application
-                composed of multiple Pokémon related apps using PokeAPI. I Choose You allows
-                users to get a starter Pokémon and PokéSearch allows users to
-                search and view all existing Pokémon and their
-                data.
+                Front end full CRUD application utilizing Airtable that was
+                created as an extension to PokéApps. PokéBinder allows the user
+                to upload their favorite Pokémon cards to a virtual binder.
               </p>
             </div>
           </div>
           <div className='right-tech'>
-            <p>JavaScript, HTML, CSS</p>
+            <p>React, CSS</p>
           </div>
         </div>
         <div className='right-img'>
           <img
-            src='https://res.cloudinary.com/dfryxohde/image/upload/v1636826134/Portfolio/screen-shot-2021-11-13-at-11-5_b4uliy.png'
-            alt='PokeApps'
+            src='https://res.cloudinary.com/dfryxohde/image/upload/v1636575404/Portfolio/Screen_Shot_2021-11-09_at_11.22.48_PM_m6slmo.png'
+            alt='PokeBinder'
           />
         </div>
       </div>
-      <div className='right-links-pokeapps'>
+      <div className='right-links-pokebinder'>
         <a
           href='https://bri-gonzalez.github.io/PokeApps/'
           target='_blank'

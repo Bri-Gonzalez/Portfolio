@@ -1,19 +1,19 @@
-.right-links-pokeapps {
+.right-links-pokebinder {
   display: flex;
   margin: 0;
 }
 
-.right-links-pokeapps a {
+.right-links-pokebinder a {
   margin-right: 12px;
   transition: 350ms;
 }
 
-.right-links-pokeapps a:hover {
+.right-links-pokebinder a:hover {
   color: #88FFDB;
 }
 
 @media screen and (max-width: 790px) {
-  .right-links-pokeapps {
+  .right-links-pokebinder {
     justify-content: flex-end;
     margin-top: 25px;
   }
