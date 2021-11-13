@@ -64,6 +64,7 @@ function MobileNav() {
               background: '#303030e2',
               height: '80px',
               boxShadow: 'none',
+              backdropFilter: 'blur(7px)'
             }}
           >
             <div className='menu-div'>
@@ -81,6 +82,7 @@ function MobileNav() {
               '& .MuiDrawer-paper': {
                 width: drawerWidth,
                 background: '#303030e2',
+                backdropFilter: 'blur(7px)'
               },
             }}
             variant='persistent'
