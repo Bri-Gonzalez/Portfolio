@@ -26,7 +26,7 @@ function Project4() {
         </div>
         <div className='right-img'>
           <img
-            src='https://res.cloudinary.com/dfryxohde/image/upload/v1636576442/Portfolio/Webp.net-resizeimage_eeraab.png'
+            src='https://res.cloudinary.com/dfryxohde/image/upload/v1636826134/Portfolio/screen-shot-2021-11-13-at-11-5_b4uliy.png'
             alt='PokeApps'
           />
         </div>

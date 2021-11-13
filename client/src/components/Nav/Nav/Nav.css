@@ -11,6 +11,9 @@
   z-index: 2;
 }
 
+.nav-links {
+  display: flex;
+}
 
 .nav-links a {
   font-weight: bold;
@@ -27,7 +30,7 @@
   transition: 350ms;
 }
 
-.resume:hover {
+.resume a:hover {
   background-color: #88ffdb09;
   border: 1.5px solid #88FFDB;
   border-radius: 7px;
