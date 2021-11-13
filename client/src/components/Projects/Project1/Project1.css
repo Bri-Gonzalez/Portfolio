@@ -52,6 +52,7 @@
 .left-tech {
   font-family: 'Libre Baskerville', sans-serif;
   font-size: clamp(14px, 1.5vw, 17px);
+  font-style: italic;
   margin-top: 15px;
   width: 100%;
 }
@@ -134,7 +135,6 @@
 
   .left-tech p {
     float: unset;
-    font-style: italic;
     width: 90%;
   }
 
