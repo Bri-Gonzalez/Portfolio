@@ -107,7 +107,7 @@
   }
 
   .right-img img {
-    width: 95%;
+    width: 100%;
   }
 
   .right-details {
@@ -132,9 +132,9 @@
   
   .right-description {
     background-color: transparent;
-    font-size: clamp(14px, 2.5vw, 17px);
+    font-size: clamp(16px, 3vw, 20px);
     padding: unset;
-    width: 95%;
+    width: 100%;
   }
 
   .right-tech {
