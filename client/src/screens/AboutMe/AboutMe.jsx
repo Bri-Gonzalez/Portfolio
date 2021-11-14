@@ -21,7 +21,8 @@ function AboutMe() {
           <p><Arrow style={{ fontSize: 18 }}/>&nbsp;Express</p>
           <p><Arrow style={{ fontSize: 18 }}/>&nbsp;Ruby</p>
           <p><Arrow style={{ fontSize: 18 }}/>&nbsp;Rails</p>
-          <p><Arrow style={{ fontSize: 18 }}/>&nbsp;PostgreSQL</p>
+          <p><Arrow style={{ fontSize: 18 }} />&nbsp;PostgreSQL</p>
+          <p><Arrow style={{ fontSize: 18 }} />&nbsp;Material UI</p>
         </div>
       </div>
     </section>
