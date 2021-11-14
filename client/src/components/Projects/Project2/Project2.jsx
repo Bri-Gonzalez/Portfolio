@@ -19,7 +19,7 @@ function Project2() {
             </div>
           </div>
           <div className='right-tech'>
-            <p>React, Express, Node.js, MongoDB, bcrypt, JWT, CSS</p>
+            <p>React, Express, Node.js, MongoDB, bcrypt, JWT, CSS, MUI</p>
           </div>
         </div>
         <div className='right-img'>

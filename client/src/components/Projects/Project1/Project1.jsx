@@ -25,7 +25,7 @@ function Project1() {
             </div>
           </div>
           <div className='left-tech'>
-            <p>PostgreSQL, Ruby on Rails, React, bcrypt, JWT, CSS</p>
+            <p>PostgreSQL, Ruby on Rails, React, bcrypt, JWT, CSS, MUI</p>
           </div>
         </div>
       </div>
