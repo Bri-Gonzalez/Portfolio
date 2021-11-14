@@ -31,14 +31,14 @@ function Project4() {
       </div>
       <div className='right-links-pokebinder'>
         <a
-          href='https://bri-gonzalez.github.io/PokeApps/'
+          href='https://pokebinder.netlify.app/'
           target='_blank'
           rel='noopener noreferrer'
         >
           <LaunchIcon />
         </a>
         <a
-          href='https://github.com/Bri-Gonzalez/PokeApps'
+          href='https://github.com/Bri-Gonzalez/PokeBinder'
           target='_blank'
           rel='noopener noreferrer'
         >
