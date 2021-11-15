@@ -14,6 +14,7 @@
 }
 
 .left-details {
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -39,7 +40,8 @@
 
 .left-description {
   align-items: center;
-  background-color: #3F3F3F;
+  backdrop-filter: blur(7px);
+  background-color: #3f3f3fd6;
   border-radius: 10px;
   display: flex;
   font-family: 'Libre Baskerville', sans-serif;
@@ -54,7 +56,7 @@
   font-size: clamp(14px, 1.5vw, 17px);
   font-style: italic;
   margin-top: 15px;
-  width: 100%;
+  width: 95%;
 }
 
 .left-tech p {
@@ -97,11 +99,12 @@
   }
 
   .left-img img {
-    width: 95%;
+    width: 100%;
   }
 
   .left-details {
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
     position: unset;
     text-align: center;
   }
@@ -120,9 +123,9 @@
   
   .left-description {
     background-color: transparent;
-    font-size: clamp(14px, 2.5vw, 17px);
+    font-size: clamp(16px, 3vw, 20px);
     padding: unset;
-    width: 95%;
+    width: 100%;
   }
 
   .left-tech {
