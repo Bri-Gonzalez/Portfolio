@@ -85,6 +85,31 @@
   color: #88FFDB;
 }
 
+@media screen and (min-width: 1800px) {
+  .right-img img {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1070px) {
+  .right-title {
+    font-size: clamp(27px, 3vw, 40px);
+  }
+
+  .right-description {
+    font-size: clamp(19px, 1.5vw, 34px);
+    padding: 30px;
+  }
+
+  .right-description p {
+    margin: 0 10px 0 0;
+  }
+
+  .right-tech {
+    font-size: clamp(16px, 1.5vw, 25px);
+  }
+}
+
 @media screen and (max-width: 790px) {
   .project-right {
     flex-direction: column;

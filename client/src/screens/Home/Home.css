@@ -2,7 +2,8 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  padding: 0 0 100px 0;
+  min-height: 85vh;
+  padding: 0;
 }
 
 .home h1 {
@@ -57,6 +58,36 @@
   border-color: #88FFDB;
   color: #88FFDB;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .home h1 {
+    margin: 60px 0 50px 0;
+  }
+
+  .profile-img {
+    margin-right: 50px;
+  }
+
+  .call-to-action button {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1070px) {
+  .call-to-action {
+    max-width: 750px;
+  }
+
+  .call-to-action p {
+    font-size: clamp(30px, 2.5vw, 35px);
+  }
+
+  .call-to-action button {
+    font-size: 23px;
+    padding: 18px 0;
+    width: 280px;
+  }
 }
 
 @media screen and (max-width: 690px) {

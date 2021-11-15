@@ -32,6 +32,20 @@
   font-family: 'Libre Baskerville', sans-serif;
 }
 
+@media screen and (min-width: 1070px) {
+  .about h2 {
+    font-size: clamp(50px, 4.5vw, 60px);
+  }
+
+  .about-details {
+    max-width: 1200px;
+  }
+
+  .about-details, .about-tech-container {
+    font-size: clamp(20px, 2vw, 24px);
+  }
+}
+
 @media screen and (max-width: 400px) {
   .about-tech-container {
     flex-direction: column;
