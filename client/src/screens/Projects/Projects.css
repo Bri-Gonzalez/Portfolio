@@ -10,3 +10,20 @@
   margin: 60px 0 50px 0;
   text-align: left;
 }
+
+@media screen and (min-width: 1800px) {
+  .projects {
+    padding: 100px 100px;
+  }
+}
+
+
+@media screen and (min-width: 1070px) {
+  .projects {
+    width: 100%;
+  }
+
+  .projects h2 {
+    font-size: clamp(50px, 4.5vw, 60px);
+  }
+}

@@ -14,6 +14,15 @@
   padding: 0 30px;
 }
 
+@media screen and (min-width: 1440px) {
+  .children {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .children {
     padding: 0 20px;
