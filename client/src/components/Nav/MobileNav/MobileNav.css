@@ -7,6 +7,10 @@
     display: unset;
   }
 
+  .appbar {
+    backdrop-filter: blur(7px);
+  }
+
   .menu-div {
     color: #dcdcdc;
     display: flex;

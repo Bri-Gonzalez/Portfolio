@@ -58,13 +58,14 @@ function MobileNav() {
       <ClickAwayListener onClickAway={handleDrawerClose}>
         <Box sx={{ display: 'flex' }}>
           <AppBar
+            className='appbar'
             position='fixed'
             open={open}
             style={{
               background: '#303030e2',
-              height: '80px',
+              backdropFilter: 'blur(7px)',
               boxShadow: 'none',
-              backdropFilter: 'blur(7px)'
+              height: '80px',
             }}
           >
             <div className='menu-div'>
