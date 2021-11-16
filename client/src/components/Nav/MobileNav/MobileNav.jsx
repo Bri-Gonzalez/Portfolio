@@ -83,7 +83,8 @@ function MobileNav() {
               '& .MuiDrawer-paper': {
                 width: drawerWidth,
                 background: '#303030e2',
-                backdropFilter: 'blur(7px)'
+                backdropFilter: 'blur(7px)',
+                border: 'none'
               },
             }}
             variant='persistent'
