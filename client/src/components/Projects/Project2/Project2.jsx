@@ -13,7 +13,7 @@ function Project2() {
             <div className='right-description'>
               <p>
                 Full stack full CRUD application with user authentication and
-                authorization. Sound is an online marketplace for users to sell
+                authorization. Built with a team of 3, Sound is an online marketplace for users to sell
                 and purchase audio products.
               </p>
             </div>
