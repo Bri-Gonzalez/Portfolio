@@ -115,7 +115,7 @@ function MobileNav() {
                   contact.
                 </NavHashLink>
                 <a
-                  href='https://drive.google.com/file/d/1RtLYDo6badTTQg1-L0y9JdBqzisu5Xg9/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1sLHv4EJV9WOC5jqglDsGKw3W38nM-vyT/view?usp=sharing'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='mobile-resume'
