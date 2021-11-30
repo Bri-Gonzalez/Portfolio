@@ -122,7 +122,7 @@
 
   .left-title-small-screen {
     font-family: 'Nixie One', sans-serif;
-    font-size: 4vw;
+    font-size: clamp(23px, 5vw, 35px);
     font-weight: bold;
     display: flex;
     margin: 0 0 20px 0;
