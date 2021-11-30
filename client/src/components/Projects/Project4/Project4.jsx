@@ -23,10 +23,16 @@ function Project4() {
           </div>
         </div>
         <div className='right-img'>
-          <img
-            src='https://res.cloudinary.com/dfryxohde/image/upload/v1636575404/Portfolio/Screen_Shot_2021-11-09_at_11.22.48_PM_m6slmo.png'
-            alt='PokeBinder'
-          />
+          <a
+            href='https://pokebinder.netlify.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              src='https://res.cloudinary.com/dfryxohde/image/upload/v1636575404/Portfolio/Screen_Shot_2021-11-09_at_11.22.48_PM_m6slmo.png'
+              alt='PokeBinder'
+            />
+          </a>
         </div>
       </div>
       <div className='right-links-pokebinder'>

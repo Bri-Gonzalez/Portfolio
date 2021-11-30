@@ -8,8 +8,14 @@
   display: none;
 }
 
+.left-img {
+  pointer-events: auto;
+  width: 100%;
+}
+
 .left-img img {
   border-radius: 10px;
+  float: left;
   width: 60vw;
 }
 
@@ -19,6 +25,7 @@
   flex-direction: column;
   height: 100%;
   justify-content: center;
+  pointer-events: none;
   position: absolute;
   text-align: right;
 }

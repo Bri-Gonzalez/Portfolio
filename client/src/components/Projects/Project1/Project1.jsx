@@ -8,10 +8,16 @@ function Project1() {
       <div className='project-left'>
         <p className='left-title-small-screen'>SERVER</p>
         <div className='left-img'>
-          <img
-            src='https://res.cloudinary.com/dfryxohde/image/upload/v1636576220/Portfolio/screen-shot-2021-11-09-at-11-2_ni8jtf.png'
-            alt='Server'
-          />
+          <a
+            href='https://find-your-server.netlify.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              src='https://res.cloudinary.com/dfryxohde/image/upload/v1636576220/Portfolio/screen-shot-2021-11-09-at-11-2_ni8jtf.png'
+              alt='Server'
+            />
+          </a>
         </div>
         <div className='left-details'>
           <p className='left-title'>SERVER</p>
