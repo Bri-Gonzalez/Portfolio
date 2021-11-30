@@ -6,15 +6,15 @@ function Project2() {
   return (
     <section>
       <div className='project-right'>
-      <p className='right-title-small-screen'>Sound</p>
+        <p className='right-title-small-screen'>Sound</p>
         <div className='right-details'>
           <p className='right-title'>Sound</p>
           <div className='right-description-container'>
             <div className='right-description'>
               <p>
                 Full stack full CRUD application with user authentication and
-                authorization. Built with a team of 3, Sound is an online marketplace for users to sell
-                and purchase audio products.
+                authorization. Built with a team of 3, Sound is an online
+                marketplace for users to sell and purchase audio products.
               </p>
             </div>
           </div>
@@ -23,10 +23,16 @@ function Project2() {
           </div>
         </div>
         <div className='right-img'>
-          <img
-            src='https://res.cloudinary.com/dfryxohde/image/upload/v1636575500/Portfolio/Screen_Shot_2021-11-09_at_11.20.07_PM_oo1wvj.png'
-            alt='Sound'
-          />
+          <a
+            href='https://sound-2021.netlify.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              src='https://res.cloudinary.com/dfryxohde/image/upload/v1636575500/Portfolio/Screen_Shot_2021-11-09_at_11.20.07_PM_oo1wvj.png'
+              alt='Sound'
+            />
+          </a>
         </div>
       </div>
       <div className='right-links'>

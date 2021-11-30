@@ -9,6 +9,7 @@
 }
 
 .right-img {
+  pointer-events: auto;
   width: 100%;
 }
 
@@ -24,6 +25,7 @@
   flex-direction: column;
   height: 100%;
   justify-content: center;
+  pointer-events: none;
   position: absolute;
   text-align: left;
 }
