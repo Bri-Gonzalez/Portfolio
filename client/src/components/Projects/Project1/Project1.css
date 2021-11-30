@@ -8,8 +8,14 @@
   display: none;
 }
 
+.left-img {
+  pointer-events: auto;
+  width: 100%;
+}
+
 .left-img img {
   border-radius: 10px;
+  float: left;
   width: 60vw;
 }
 
@@ -19,6 +25,7 @@
   flex-direction: column;
   height: 100%;
   justify-content: center;
+  pointer-events: none;
   position: absolute;
   text-align: right;
 }
@@ -34,7 +41,7 @@
   align-items: center;
   display: flex;
   height: 50%;
-  justify-content: right;
+  justify-content: flex-end;
   margin: 0 auto;
 }
 
@@ -115,7 +122,7 @@
 
   .left-title-small-screen {
     font-family: 'Nixie One', sans-serif;
-    font-size: 4vw;
+    font-size: clamp(23px, 5vw, 35px);
     font-weight: bold;
     display: flex;
     margin: 0 0 20px 0;
